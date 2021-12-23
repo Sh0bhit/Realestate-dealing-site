@@ -1,0 +1,351 @@
+<div class="projcard projcard-blue">
+            <div class="projcard-innerbox">
+                <img class="projcard-img" src="https://picsum.photos/800/600?image=1041" />
+                <div class="projcard-textbox">
+                    <div class="projcard-title">Card Title</div>
+                    <div class="projcard-subtitle">This explains the card in more detail</div>
+                    <div class="projcard-bar"></div>
+                    <div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    <div class="projcard-tagbox">
+                        <span class="projcard-tag">HTML</span>
+                        <span class="projcard-tag">CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="tooltip">
+          <span class="show">Dashboard</span>
+          <span>Projects</span>
+          <span>Messages</span>
+          <span>Analytics</span>
+        </div>
+      </ul>
+
+      <h4 class="hide">Shortcuts</h4>
+
+      <ul>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="#" data-active="4">
+            <div class="icon">
+              <i class='bx bx-notepad'></i>
+              <i class='bx bxs-notepad'></i>
+            </div>
+            <span class="link hide">Tasks</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#" data-active="5">
+            <div class="icon">
+              <i class='bx bx-help-circle'></i>
+              <i class='bx bxs-help-circle'></i>
+            </div>
+            <span class="link hide">Help</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="#" data-active="6">
+            <div class="icon">
+              <i class='bx bx-cog'></i>
+              <i class='bx bxs-cog'></i>
+            </div>
+            <span class="link hide">Settings</span>
+          </a>
+        </li>
+        <div class="tooltip">
+          <span class="show">Tasks</span>
+          <span>Help</span>
+          <span>Settings</span>
+        </div>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <div class="sidebar-footer">
+      <a href="#" class="account tooltip-element" data-tooltip="0">
+        <i class='bx bx-user'></i>
+      </a>
+      <div class="admin-user tooltip-element" data-tooltip="1">
+        <div class="admin-profile hide">
+          <img src="./img/face-1.png" alt="">
+          <div class="admin-info">
+            <h3>John Doe</h3>
+            <h5>Admin</h5>
+          </div>
+        </div>
+        <a href="#" class="log-out">
+          <i class='bx bx-log-out'></i>
+        </a>
+      </div>
+      <div class="tooltip">
+        <span class="show">John Doe</span>
+        <span>Logout</span>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="open-modal" class="modal-window">
+  <div>
+    <a href="#" title="Close" class="modal-close">Close</a>
+    <h1>Voilà!</h1>
+    <div>A CSS-only modal based on the :target pseudo-class. Hope you find it helpful.</div>
+    <div><small>Check out</small></div>
+    <a href="https://aminoeditor.com" target="_blank">👉 Amino: Live CSS Editor for Chrome</a></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Dealer</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="nav-links">
+         <nav>
+             <a href="index.html"><img src="images/head-logo.png"></a>
+             <ul>
+                 <li><a href="">Home</a></li>
+                 <li><a href="http://localhost/Realestate/pages/loginpage.php">Sign In</a></li>
+                 <li><a href="">About Us</a></li>
+                 <li><a href="pages/contact.html">Contact Us</a></li>
+             </ul>
+         </nav>
+        </div>
+        <div class="head">
+            <h1>Real Estates</h1>
+            <p class="desc">Find real estates and Buy/sell/rent with ease</p>
+            <p class="button1"><span>Explore</span></p>
+        </div>       
+    </section>
+    <section class="services">
+        <div class="head2">
+            <h>Our Services</h>
+            </div>
+            <div class="row">
+         <div class="card">
+             <div class="bg1">
+         <div class="card-content">
+             <h2 class="card-title">Rent</h2>
+             <p class="card-body">Rent Your Properties or Find rented Properties to live on </p>
+             <a href="#" class="button2">Learn More</a>
+             </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="bg2">
+            <div class="card-content">
+                <h2 class="card-title">Buy</h2>
+                <p class="card-body">You will Find many Properties here to buy on </p>
+                <a href="#" class="button2">Learn More</a>
+               </div>
+               </div>
+           </div>
+           <div class="card">
+               <div class="bg3">
+            <div class="card-content">
+                <h2 class="card-title">Sell</h2>
+                <p class="card-body">you can also Sell your properties via broker or without broker</p>
+                </div>
+               </div>
+           </div>
+           </div>
+    </section>
+    <section class="recent">
+
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+function toggleAnimation() {
+  dark = !dark;
+  let clone = big_wrapper.cloneNode(true);
+  if (dark) {
+    clone.classList.remove("light");
+    clone.classList.add("dark");
+  } else {
+    clone.classList.remove("dark");
+    clone.classList.add("light");
+  }
+  clone.classList.add("copy");
+  main.appendChild(clone);
+
+  document.body.classList.add("stop-scrolling");
+
+  clone.addEventListener("animationend", () => {
+    document.body.classList.remove("stop-scrolling");
+    big_wrapper.remove();
+    clone.classList.remove("copy");
+    declare();
+    events();
+  });
+}
+
+
+
+
+
+
+
+
+
+
+let dark = false;
+
+function toggleAnimation() {
+  dark = !dark;
+  let clone = big_wrapper.cloneNode(true);
+  if (dark) {
+    clone.classList.remove("light");
+    clone.classList.add("dark");
+  } else {
+    clone.classList.remove("dark");
+    clone.classList.add("light");
+  }
+  clone.classList.add("copy");
+  main.appendChild(clone);
+
+  document.body.classList.add("stop-scrolling");
+
+  clone.addEventListener("animationend", () => {
+    document.body.classList.remove("stop-scrolling");
+    big_wrapper.remove();
+    clone.classList.remove("copy");
+    declare();
+    events();
+  });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "<div class='projcard projcard-blue'>";
+        echo "<div class='projcard-innerbox'>";
+        echo "<a name='detlink' href='http://localhost/Realestate/pages/details.php'>";
+        echo "<img class='projcard-img' src='../uploaded_images/".$row['image']."'>";
+        echo "<div class='projcard-textbox'>";
+        echo "<div class='projcard-title'>".$row['city']."</div>";
+        echo "<div class='projcard-subtitle'>".$row['state']."</div>";
+        echo "<div class='projcard-bar'></div>";
+        echo "<p class='projcard-description'>".$row['address']."<br>".$row['description']."</p>";
+        echo "<div class='projcard-tagbox'>";
+        echo "<span class='projcard-tag'>"."Price:".$row['price']."</span>";
+        echo "<span class='projcard-tag'>"."Area:".$row['area']."</span>";
+        echo "<span class='projcard-tag'>"."Contact:".$row['contact']."</span>";
+        echo "</a>";
+        echo "</div>";
+        echo "</div>";
+        echo "</div>";
+        echo "</div>";
