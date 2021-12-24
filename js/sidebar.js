@@ -57,3 +57,22 @@ function showTooltip() {
 tooltip_elements.forEach((elem) => {
   elem.addEventListener("mouseover", showTooltip);
 });
+
+
+
+
+
+srchslider = document.querySelector(".srchinput");
+
+
+
+srchslider.addEventListener('focus',()=>{
+  console.log("hh");
+  srchslider.classList.add("slider");
+})
+
+
+srchslider.addEventListener('blur',()=>{
+  console.log("hh");
+  srchslider.classList.remove("slider");
+})

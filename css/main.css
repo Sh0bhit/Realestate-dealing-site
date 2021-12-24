@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 
 
 .tophead{
@@ -82,10 +85,6 @@
 		display: none;
 	}
 
-
-
-
-	
   
   }
 
@@ -107,6 +106,11 @@
 		 display: none;
 	 }
   
+	 .sr{
+		display: none;
+	}
+
+
   }
 
 
@@ -148,7 +152,9 @@
 	background-color: #5872f5;
 	width: 100%;
 	z-index: 1;
-    
+    border-radius: 0px 0px 5px 5px;
+	margin-top: 0.1%;
+	font-family: 'Poppins', sans-serif;
 	
   }
   
@@ -210,7 +216,7 @@
  
   @keyframes in {
 	0% { margin-top: -50%; opacity: 0; visibility: hidden;  }
-	100% { margin-top: 30%; opacity: 1; visibility: visible; }
+	100% { margin-top: 20%; opacity: 1; visibility: visible; }
   }
   
 
@@ -219,12 +225,26 @@
 	background-color: white;
     padding: 1em 1.5em;
     border-radius: 1rem;
+	position: relative;
     text-decoration: none;
-    position:fixed;
-    margin-left: 3rem;
 	width: 80%;
-	z-index: 1;
+	align-items: center;
+	z-index: 10;
   }
+
+.wrapper{
+	position: fixed;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  /* this is what centers your element in the fixed wrapper*/
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; /* aligns on vertical for column */
+  align-items: center; /* aligns on horizontal for column */
+  
+}
   
   #toggle.show {
 	
@@ -236,10 +256,49 @@
   .toptext i{
 	  padding-top: 1%;
 	  width: 20px;
+	  
   }
 
 
 
+.srchbox{
+	margin-top: 60px;
+	height: 40px;
+	background: hsl(230, 65%, 52%);
+	display: flex;
+}
 
-
+.srchinput{
+	display: block;
+	height: 30px;
+    border: none;
+	outline: none;
+	border-radius: 10px;
+	margin: auto 2%;
+	width: 100%;
+	
+}
   
+.srchbox i{
+	color:white;
+	margin: auto 2%;
+	margin-left: auto; 
+	margin-right: 5%;
+}
+
+
+.srchinput::placeholder{
+	padding: 10px;
+	transition: 1s;
+	opacity: 1;
+}
+
+
+
+.srchinput.slider::placeholder{
+	padding: 100px;
+	transition: 1s;
+	opacity: 0;
+}
+
+

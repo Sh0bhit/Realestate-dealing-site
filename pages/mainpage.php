@@ -166,6 +166,7 @@
         </div>
         <div class="headtext"><p>Real Estate Explorer</p></div>
 </div>
+        <div class="wrapper">
       <div href="#" class="btn btn-primary" id='toggle' style='display:none;'>
         <div class="navtop">
           <ul>
@@ -191,6 +192,10 @@
              </li>
 
           </ul>
+
+
+         
+       
            <script>
             function myclick(id) {
                 var x = document.getElementById(id);
@@ -213,11 +218,17 @@
        </script>
          
           </div>
+                      </div>
           <div class="navside">
-          <a href="#">Explore</a>
+          <a href="#"></a>
           </div>
       </div>
-      
+        <div class="sr">              
+      <div class="srchbox">
+       <input class="srchinput" type="text" placeholder="Search">
+        <i class='class="srchbtn bx bx-search'></i>
+      </div>
+      </div>
 
 <div class="projcard-container">
 
